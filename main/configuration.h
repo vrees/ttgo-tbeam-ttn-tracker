@@ -43,6 +43,13 @@ void ttn_register(void (*callback)(uint8_t message));
 // #define T_BEAM_V07  // AKA Rev0 (first board released)
 #define T_BEAM_V10  // AKA Rev1 (second board released)
 
+
+https://github.com/Xinyuan-LilyGO/LilyGO-T-Beam/blob/master/schematic/LilyGo_TBeam_V1.1.pdf
+https://github.com/Xinyuan-LilyGO/LilyGO-T-Beam/blob/master/schematic/LilyGo_TBeam_V1.0.pdf
+https://github.com/Xinyuan-LilyGO/LilyGO-T-Beam/blob/master/schematic/LilyGo_TBeam_V0.7.pdf
+
+
+
 // Select the payload format. Change on TTN as well. Only uncomment one.
 #define PAYLOAD_USE_FULL
 // #define PAYLOAD_USE_CAYENNE
