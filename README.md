@@ -4,6 +4,14 @@ Current version: 1.2.0
 
 Uploads GPS data from the TTGO T-Beam to [The Things Network](https://www.thethingsnetwork.org) (TTN) and [TTN Mapper](https://ttnmapper.org) for tracking and determining signal strength of LoRaWAN gateways and nodes.
 
+
+### Attention after installing Meshatastic on T-Beam
+
+@see https://github.com/eriktheV-king/TTGO_T-beam_GPS-reset
+
+
+
+
 #### Based on the code from [xoseperez/ttgo-beam-tracker](https://github.com/xoseperez/ttgo-beam-tracker), with excerpts from [dermatthias/Lora-TTNMapper-T-Beam](https://github.com/dermatthias/Lora-TTNMapper-T-Beam) to fix an issue with incorrect GPS data being transmitted to The Things Network. I also added support for the 915 MHz frequency (North and South America). [lewisxhe/TTGO-T-Beam](https://github.com/lewisxhe/TTGO-T-Beam) was referenced for enabling use on the newer T-Beam board (Rev1).
 
 This is a LoRaWAN node based on the [TTGO T-Beam](https://github.com/LilyGO/TTGO-T-Beam) development platform using the SSD1306 I2C OLED display.
@@ -64,6 +72,7 @@ I also developed [The Things Network Tracker (TTN-Tracker)](https://github.com/k
 ### T-BEAM Board Versions
 
 #### Rev0
+Schema V0.7: https://github.com/Xinyuan-LilyGO/LilyGO-T-Beam/blob/master/schematic/LilyGo_TBeam_V0.7.pdf
 
 ![TTGO T-Beam 01](img/TTGO-TBeam-01.jpg)
 
@@ -72,7 +81,12 @@ I also developed [The Things Network Tracker (TTN-Tracker)](https://github.com/k
 ![TTGO T-Beam 03](img/TTGO-TBeam-03.jpg)
 
 #### Rev1
+Schema V1.0: https://github.com/Xinyuan-LilyGO/LilyGO-T-Beam/blob/master/schematic/LilyGo_TBeam_V1.0.pdf
+Schema V1.1: https://github.com/Xinyuan-LilyGO/LilyGO-T-Beam/blob/master/schematic/LilyGo_TBeam_V1.1.pdf
+
 
 ![T-BEAM-Rev1-01](img/T-BEAM-Rev1-01.jpg)
 
 ![T-BEAM-Rev1-02](img/T-BEAM-Rev1-02.jpg)
+
+

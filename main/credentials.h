@@ -13,7 +13,6 @@ Credentials file
 #ifdef USE_ABP
 
     // ttgo-t-beam-esp32-ttnmapper-3
-    // ttgo-t-beam-esp32-ttnmapper-3
     // LoRaWAN NwkSKey, network session key
     static const u1_t PROGMEM NWKSKEY[16] = { 0x8B, 0x59, 0xC4, 0x58, 0x00, 0xCB, 0x26, 0xF0, 0xE4, 0x12, 0x36, 0xDA, 0xD1, 0x97, 0xA7, 0xC7 };
     // LoRaWAN AppSKey, application session key
